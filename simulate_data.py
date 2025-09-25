@@ -26,6 +26,19 @@ set.seed(1)
 
 ## Function to build collections of sets
 def build_sets(set_size: int, unique_members: int, total_sets: int) -> pd.core.frame.DataFrame:
+
+    """
+    This function builds a collection of sets containing members defined by set_id and member_id
+
+    Args:
+        set_size (int): the number of elements to add to each set
+        unique_members (int): the total number of unique items in the universe
+        total_sets (int): how many sets to generate
+
+    Returns:
+        pd.core.frame.DataFrame: contains all sets and members
+
+    """
     
     ## Initialse dataframe
     all_sets = pd.DataFrame()
