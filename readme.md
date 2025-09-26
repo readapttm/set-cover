@@ -35,3 +35,4 @@ Running this script should produce the following chart:
 
 N.B. This script implements a lazy implementation of the greedy solution to the set cover problem as outlined in algorithm 3 in the following publication: https://people.eng.unimelb.edu.au/ammoffat/abstracts/lmw14acsc.pdf. 
 
+NB. All code in this repository is provided for educational purposes only, with absolutely no warranty explicit, implied, or otherwise.
